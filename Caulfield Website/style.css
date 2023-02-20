@@ -1,0 +1,231 @@
+body{
+    background-color: #FDFDFD;
+    margin:0;
+}
+
+h1{
+    font-family:'Quicksand', sans-serif;
+    font-size: 50px;
+    padding-right: 75px;
+    text-align: center;
+    width: 50%;
+}
+
+h2{
+   font-family: 'Quicksand', sans-serif;
+   font-size: 45px;
+   padding-left: 1.25rem;
+   text-align: left; 
+   text-decoration-line: underline;
+   text-decoration-style: dotted;
+   text-decoration-color: #0E817B;
+   
+}
+
+h3{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 36px;
+    padding-left: 1.25rem; 
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #0E817B;
+    padding-top: 2rem;
+    
+}
+
+h4{
+    font-family:'Source Sans Pro', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+}
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 26px;
+    padding: 1.5rem;
+    text-align: left;
+    width: 90%;
+    line-height: 2.25rem;
+}
+
+li{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    padding-left: 1.25rem; 
+    width: 90%;
+    line-height: 2rem;
+}
+
+a{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+}
+
+.messagebullet li{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    width: 90%;
+    list-style-type: none;
+    padding-left: 2.5rem;
+    padding-bottom: 0.5rem;
+    background-image: url(chat-bubble.png);
+    background-position: 0 , 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+}
+
+.navigation{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top_banner{
+    display: flex;
+    justify-content: flex-end;
+    background-color: honeydew;
+}
+
+
+.rectanglebanner{
+    background-color: honeydew;
+    display: block;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+}
+
+.circle {
+    background-color: black;
+    display: block;
+    height: 400px;
+    width: 400px;
+    border-radius: 20rem;
+    overflow: hidden;
+    position: relative;
+    float: left;
+  }
+  
+  .circlewithincircle{
+      display: flex;
+      justify-content: flex-start;
+      position: relative;
+      float: left;
+      padding-right: 2rem;
+  }
+
+.post-header{
+    width: 100%;
+    margin-top: 215px;
+    display: block;
+}
+.button{
+    font-family: 'Quicksand',sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-block-end: 10px;
+    padding-block-start: 10px;
+    color: black;
+    background-color: #FDFDFD;
+    border-color: #FDFDFD;
+    outline-style:hidden;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+button{
+    font-family: 'Quicksand',sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-block-end: 10px;
+    padding-block-start: 10px;
+    color: black;
+    background-color: #FDFDFD;
+    border-color: #FDFDFD;
+    outline-style:hidden;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.badgerectangle{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.zoom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.zoom:hover{
+    transform: scale(1.2);
+}
+
+span{
+    color:black;
+}
+
+span.auto-typed{
+    text-decoration: underline;
+    text-decoration-color: #0E817B ;
+}
+
+.portfolio-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.portfolio-container img {
+    width: 500px;
+    object-fit: cover;
+}
+
+
+
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px 20px;
+    grid-template-areas:
+      "Portfolio-1 Portfolio-2 "
+      "Portfolio-3 Portfolio-4 ";
+    justify-items: center;
+  }
+  
+  .Portfolio-1 { grid-area: Portfolio-1; }
+  
+  .Portfolio-2 { grid-area: Portfolio-2; }
+  
+  .Portfolio-3 { grid-area: Portfolio-3; }
+
+  .Portfolio-4 { grid-area: Portfolio-4; }
+
+  .Portfolio-5 { grid-area: Portfolio-4; }
+
+  .Portfolio-6 { grid-area: Portfolio-4; }
+  
+
+
+
+
+
+
+  
+  
+
