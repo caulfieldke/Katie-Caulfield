@@ -194,6 +194,7 @@ span.auto-typed{
 .portfolio-container img {
     width: 500px;
     object-fit: cover;
+    height: 340px;
 }
 
 
