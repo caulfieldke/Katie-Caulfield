@@ -34,6 +34,27 @@ h4{
     text-align: center;
 }
 
+h5{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 28px;
+    font-style: italic;
+    text-align: center;
+    padding-left: 2.5rem;
+    width: 90%;
+    line-height: 2.25rem;
+    margin-block-start: 2rem;
+}
+
+h6{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 28px; 
+    text-align: Center;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #0E817B;
+    padding-top: 2rem;
+}
+
 p{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 22px;
@@ -48,6 +69,13 @@ b{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 24px;
     color: black;
+}
+li{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    padding-left: 1.25rem; 
+    width: 90%;
+    line-height: 2rem;
 }
 
 .bullets li{
@@ -117,6 +145,17 @@ button{
     width: 100vw;
   }
   
+  .highlightbanner{
+    background-color: seashell;
+    display: block;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
   .footer {
     display: flex;
     width: 80vw;
@@ -128,4 +167,5 @@ button{
     width: 10em;
     text-align: center;
   }
+
 
