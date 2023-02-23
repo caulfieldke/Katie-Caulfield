@@ -13,7 +13,6 @@ h2{
     font-family: 'Quicksand', sans-serif;
     font-size: 45px;
     color:black;
-    padding-top: 210px;
     text-align: center;
 }
 
@@ -32,6 +31,25 @@ h4{
     font-family: 'Quicksand',sans-serif;
     font-size: 32px;
     text-align: center;
+}
+
+h5{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 28px;
+    font-style: italic;
+    text-align: center;
+    width: 90%;
+    line-height: 2.25rem;
+}
+
+h6{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 28px; 
+    text-align: Center;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #0E817B;
+    padding-top: 2rem;
 }
 
 p{
@@ -95,12 +113,33 @@ a{
 .rectanglebanner{
     background-color: honeydew;
     display: block;
-    height: 200px;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    position: relative;
+}
+
+.highlightbanner{
+    background-color: seashell;
+    display: block;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.bullets li{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    width: 90%;
+    list-style-position: inside;
+    padding-left: 2.5rem;
+    text-indent: -1.75rem;
+    
 }
 
 button{
@@ -127,9 +166,6 @@ button{
 
 img{
     border: 2px solid black;
-    float: right;
-    margin-right: 60px;
-    margin-left: 80px;
 }
 
 .rectangle1 {

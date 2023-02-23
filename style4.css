@@ -13,7 +13,6 @@ h2{
     font-family: 'Quicksand', sans-serif;
     font-size: 45px;
     color:black;
-    padding-top: 210px;
     text-align: center;
 }
 
@@ -39,10 +38,18 @@ h5{
     font-size: 28px;
     font-style: italic;
     text-align: center;
-    padding-left: 2.5rem;
     width: 90%;
     line-height: 2.25rem;
-    margin-block-start: 2rem;
+}
+
+h6{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 28px; 
+    text-align: Center;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #0E817B;
+    padding-top: 2rem;
 }
 
 p{
@@ -85,6 +92,19 @@ li{
     
 }
 
+.widthofiframe{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.widthofiframe iframe{
+    width: 100%;
+    max-width: 900px;
+    aspect-ratio: 16/9;
+    padding: 1rem;
+}
+
 a{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 22px;
@@ -106,18 +126,18 @@ a{
 .rectanglebanner{
     background-color: honeydew;
     display: block;
-    height: 200px;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    position: relative;
 }
 
 .highlightbanner{
     background-color: seashell;
     display: block;
-    height: 200px;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: center;

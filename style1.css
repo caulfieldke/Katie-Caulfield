@@ -13,7 +13,6 @@ h2{
     font-family: 'Quicksand', sans-serif;
     font-size: 45px;
     color:black;
-    padding-top: 210px;
     text-align: center;
 }
 
@@ -39,10 +38,8 @@ h5{
     font-size: 28px;
     font-style: italic;
     text-align: center;
-    padding-left: 2.5rem;
     width: 90%;
     line-height: 2.25rem;
-    margin-block-start: 2rem;
 }
 
 h6{
@@ -109,12 +106,12 @@ a{
 .rectanglebanner{
     background-color: honeydew;
     display: block;
-    height: 200px;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    position: relative;
 }
 
 button{
@@ -145,10 +142,10 @@ button{
     width: 100vw;
   }
   
-  .highlightbanner{
+.highlightbanner{
     background-color: seashell;
     display: block;
-    height: 200px;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -167,5 +164,10 @@ button{
     width: 10em;
     text-align: center;
   }
+
+img{
+    width: 100%;
+    max-width: 600px;
+}
 
 
